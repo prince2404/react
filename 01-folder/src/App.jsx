@@ -1,10 +1,13 @@
 import React from 'react'
 import seriesList from './webSeries'
 import Series from './components/Series'
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <>
+    <h1>List of Best Dramas</h1>
+    <div className='card-container'>
       {seriesList.map(list => <Series 
       name = {list.name}
       id = {list.id}
@@ -17,6 +20,7 @@ const App = () => {
       )}
       
     </div>
+    </>
   )
 }
 
