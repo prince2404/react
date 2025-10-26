@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.parent{
+  width: 100%;
+  background-color:#42358d;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive */
+  gap: 30px;
+  justify-items: center;
+
+}
+
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 4px;
+}
+
+.top button{
+  padding: 5px 10px;
+  background-color: #fbfbfb;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+
+.center{
+  margin-bottom: 40px;
+}
+
+.center h2{
+  font-size: 20px;
+}
+
+.center span{
+  font-size: 13px;
+  color: #a6a2a2;
+}
+
+.center h1{
+  font-size: 25px;
+}
+
+.center div{
+  display: flex;
+  justify-content:flex-start;
+  gap: 10px;
+
+}
+
+.center div h4{
+  padding: 3px 10px;
+  background-color: #ebe7e7;
+  border-radius: 5px;
+  font-size: 13px;
+  
+}
+
+.bottom{
+  border-top: 1px solid #dadada;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom button{
+  background-color: #111;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
