@@ -1,12 +1,14 @@
 import React from 'react'
+import Section1 from './components/Section1/Section1'
 
 const App = () => {
   return (
-    <div className='bg-red-500 text-5xl'>
-      Hello
+    <div>
+      <Section1/>
       
     </div>
   )
 }
 
 export default App
+
