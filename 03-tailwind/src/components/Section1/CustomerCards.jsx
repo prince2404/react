@@ -6,7 +6,7 @@ const CustomerCards = (props) => {
     green: 'bg-green-400 text-gray-900'
   };
   return (
-    <div className='relative w-60 h-110 rounded-3xl overflow-hidden shadow-lg'>
+    <div className='flex shrink-0 snap-start w-80 h-[420px] rounded-3xl overflow-hidden relative text-white'>
         <div className='absolute inset-0 bg-cover bg-center' style={{backgroundImage: `url(${props.image})`}}>
             <div className='absolute inset-0 bg-opacity-40'></div>
         </div>

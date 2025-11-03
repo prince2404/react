@@ -4,7 +4,7 @@ import customerData from './Customer'
 
 const Right1content = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+    <div className='flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth'>
       {customerData.map(card => <CustomerCards
       id = {card.id}
       number = {card.number}
